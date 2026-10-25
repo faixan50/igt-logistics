@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>IGT Logistics | Freight Dispatch for Owner-Operators and Small Fleets</title>
 <meta name="description" content="IGT Logistics books loads, negotiates rates, and handles paperwork for dry van, reefer, and flatbed carriers across the country.">
-<link rel="icon" href="assets/logo.jpg">
+<link rel="icon" type="image/png" href="assets/logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -17,18 +17,20 @@
 
 <header class="site-header" id="siteHeader">
   <div class="shell header-inner">
-    <a href="#top" class="brand">
-      <span class="logo-badge"><img src="assets/logo.jpg" alt="IGT Logistics"></span>
-    </a>
-
-    <nav class="main-nav" id="mainNav" aria-label="Primary">
+    <nav class="main-nav nav-left" aria-label="Primary">
       <a href="#services">Services</a>
       <a href="#how-it-works">How It Works</a>
-      <a href="#why-us">Why Us</a>
-      <a href="#contact">Contact</a>
     </nav>
 
-    <div class="header-actions">
+    <a href="#top" class="brand">
+      <img src="assets/logo.png" alt="IGT Logistics" class="brand-logo">
+    </a>
+
+    <div class="header-right">
+      <nav class="main-nav nav-right" aria-label="Secondary">
+        <a href="#why-us">Why Us</a>
+        <a href="#contact">Contact</a>
+      </nav>
       <a href="#contact" class="btn btn-primary">Get Dispatched</a>
       <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
         <span></span><span></span><span></span>
@@ -48,21 +50,19 @@
 <main id="main">
 
   <!-- HERO -->
-  <section class="ink hero" id="top">
+  <section class="hero" id="top">
+    <div class="hero-roadlines" aria-hidden="true"></div>
     <div class="shell hero-grid">
       <div class="hero-copy reveal">
-        <h1>Dispatch that keeps your trucks moving.</h1>
+        <h1>Dispatch<br>Without Limits.</h1>
         <p class="hero-sub">We book loads, negotiate rates, and handle paperwork for dry van, reefer, and flatbed carriers across the country.</p>
         <div class="hero-actions">
-          <a href="#contact" class="btn btn-accent">Get Dispatched</a>
-          <a href="tel:15550192847" class="btn btn-ghost-ink">
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h3.5l1.5 4.5-2 1.5a12 12 0 0 0 6 6l1.5-2L19 15.5V19a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3.5 5.6 1.5 1.5 0 0 1 5 4Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            (555) 019-2847
-          </a>
+          <a href="#contact" class="btn btn-light">Get Dispatched</a>
+          <a href="#how-it-works" class="btn btn-ghost-light">How It Works</a>
         </div>
       </div>
-      <div class="hero-media reveal">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Colorful_Semi-Trucks.jpg?width=1100" alt="A lineup of semi-trucks ready to run" loading="eager">
+      <div class="hero-media reveal" aria-hidden="true">
+        <img src="assets/truck-mark-white.png" alt="">
       </div>
     </div>
   </section>
@@ -94,8 +94,8 @@
     <div class="shell">
       <h2 class="section-title reveal">Dispatch built around your equipment.</h2>
       <div class="bento reveal">
-        <article class="bento-cell bento-wide bento-photo">
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Truck_on_Highway_Bridge.jpg?width=900" alt="Freight truck moving through a highway interchange">
+        <article class="bento-cell bento-wide bento-brand">
+          <img src="assets/truck-mark-white.png" alt="" class="bento-mark" aria-hidden="true">
           <div class="bento-text">
             <h3>Dry Van</h3>
             <p>Standard truckload freight, booked fast with consistent lanes.</p>
@@ -191,13 +191,17 @@
         </ul>
       </div>
       <div class="why-media reveal">
-        <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Freightliner_Cascadia_Ryder_tractor_cab_interior.jpg?width=900" alt="Inside the cab of a Freightliner Cascadia">
+        <img src="assets/truck-mark-white.png" alt="" class="why-media-mark" aria-hidden="true">
+        <div class="why-media-stat">
+          <span class="why-media-num">48</span>
+          <span class="why-media-label">states covered, nationwide lanes</span>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- TESTIMONIAL + CTA -->
-  <section class="ink quote-band">
+  <section class="quote-band">
     <div class="shell quote-grid">
       <blockquote class="reveal">
         <p>"IGT keeps my truck loaded and my paperwork clean. I spend less time on the phone and more time driving."</p>
@@ -219,12 +223,8 @@
         <p class="contact-copy">Fill out the form or reach the dispatch desk directly. We cover dry van, reefer, and flatbed freight nationwide.</p>
         <ul class="contact-list">
           <li>
-            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 4h3.5l1.5 4.5-2 1.5a12 12 0 0 0 6 6l1.5-2L19 15.5V19a1.5 1.5 0 0 1-1.6 1.5A16 16 0 0 1 3.5 5.6 1.5 1.5 0 0 1 5 4Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span>(555) 019-2847</span>
-          </li>
-          <li>
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4.5 7 7.5 6 7.5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span>dispatch@igtlogistics.com</span>
+            <span>contact@igtlogistics.org</span>
           </li>
           <li>
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5l3 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -268,10 +268,10 @@
 
 </main>
 
-<footer class="ink site-footer">
+<footer class="site-footer">
   <div class="shell footer-grid">
     <div class="footer-brand">
-      <span class="wordmark">IGT LOGISTICS</span>
+      <img src="assets/logo.png" alt="IGT Logistics" class="footer-logo">
       <p>Freight dispatch for owner-operators and small fleets.</p>
       <a href="#contact" class="btn btn-accent">Get Dispatched</a>
     </div>
@@ -286,16 +286,13 @@
 
     <div class="footer-col">
       <h4>Dispatch Desk</h4>
-      <a href="tel:15550192847">(555) 019-2847</a>
-      <a href="mailto:dispatch@igtlogistics.com">dispatch@igtlogistics.com</a>
+      <a href="mailto:contact@igtlogistics.org">contact@igtlogistics.org</a>
       <span>Open 24/7</span>
     </div>
   </div>
 
   <div class="shell footer-legal">
     <p>&copy; 2026 IGT Logistics. All rights reserved.</p>
-    <p class="placeholder-note">MC# [Your MC Number] &middot; DOT# [Your DOT Number]</p>
-    <p class="photo-credit">Photos via Wikimedia Commons: Thank You (21 Millions+) views, Destroducks, MobiusDaXter (CC BY / CC BY-SA)</p>
   </div>
 </footer>
 
